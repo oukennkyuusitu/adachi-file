@@ -1,0 +1,17 @@
+site_name: アダチユウト
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - scheme: default         # ライトモード（明るい配色）
+      primary: teal           # メインカラー（ヘッダーやリンクなど）
+      accent: teal            # 強調カラー（ボタンやハイライト）
+    - scheme: slate           # ダークモード（暗い配色）
+      primary: teal
+      accent: lime
+      toggle:                 # モード切り替えボタンの設定
+        icon: material/brightness-4
+        name: ダークモード
+
+  
